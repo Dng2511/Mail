@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvSender"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:text="Sender"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSubject"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/tvSnippet"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:text="Snippet of the email content"
+        android:textColor="#666666" />
+</LinearLayout>
